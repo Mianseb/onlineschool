@@ -1,0 +1,32 @@
+name: onlineschool
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_svg:
+  font_awesome_flutter:
+  url_launcher:
+  flutter_screenutil: ^5.5.3+2
+  image_picker: ^0.8.5+3
+  lottie:
+  file_picker: ^5.2.0
+  dotted_border:
+  fluttertoast: ^8.0.9
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  lints: 2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
