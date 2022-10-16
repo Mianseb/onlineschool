@@ -17,6 +17,9 @@ dependencies:
   file_picker: ^5.2.0
   dotted_border:
   fluttertoast: ^8.0.9
+  google_fonts:
+  geolocator: ^9.0.2
+  location_picker_flutter_map:
   flutter: 
     sdk: flutter
 

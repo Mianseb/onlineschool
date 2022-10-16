@@ -6,7 +6,6 @@ import 'package:onlineschool/app/modules/home/views/parent%20Screens/profile_scr
 import 'package:onlineschool/app/modules/home/views/parent%20Screens/update_profile.dart';
 
 import '../data/colors.dart';
-import '../data/typography.dart';
 class CustomDrawer extends StatefulWidget {
   const CustomDrawer({Key? key}) : super(key: key);
 
@@ -43,9 +42,9 @@ class _CustomDrawerState extends State<CustomDrawer> {
                   ],
                 ),
                 SizedBox(height: 10,),
-                Text('Mian Sami Ullah',style: CustomTextStyle.kHeading.copyWith(color: Colors.white,fontSize: 20),),
+                Text('Mian Sami Ullah',style: TextStyle(color: Colors.white,)),
                 SizedBox(height: 5,),
-                Text('mianofficial007@gmail.com',style: CustomTextStyle.kSmallText.copyWith(color: Colors.white60)),
+                Text('mianofficial007@gmail.com',style: TextStyle(color: Colors.white70)),
               ],
             ),
           ),

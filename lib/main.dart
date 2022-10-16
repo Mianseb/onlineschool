@@ -5,7 +5,9 @@ import 'package:get/get.dart';
 import 'app/routes/app_pages.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   runApp(
     ScreenUtilInit(
         designSize: Size(294.72, 607.68),
@@ -18,5 +20,7 @@ void main() {
 
           );
         }),
+
   );
+
 }
